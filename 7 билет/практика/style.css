@@ -1,0 +1,8 @@
+.equation {
+    text-align: center;
+    font-size: 24px;
+    margin: 16px 0;
+}
+.equation span {
+    margin: 0 4px;
+}

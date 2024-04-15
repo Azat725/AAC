@@ -1,0 +1,34 @@
+:root {
+    --body-color: #333;
+    --title-color: #f03333;
+    --sub-title: #12ac11;
+    --p-color: #f03333;
+    --list-color: #444;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5pt;
+    color: var(--body-color);
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 1.2pt;
+    color: var(--p-color);
+}
+
+.subtitle {
+    font-size: 40px;
+    line-height: 1.2pt;
+    text-decoration: underline;
+    color: var(--sub-title);
+}
+
+ul {
+    font-size: 20px;
+    color: var(--list-color);
+    list-style-type: square;
+}

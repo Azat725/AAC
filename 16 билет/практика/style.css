@@ -1,0 +1,18 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+	padding: 50px;
+}
+.poem {	
+	display: inline-block;	
+	text-align: left;
+}
+.author {	
+	font-style: italic;
+}
+
+.s-part {	
+	margin-top: 10px;
+}

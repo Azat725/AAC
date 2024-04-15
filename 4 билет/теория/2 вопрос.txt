@@ -1,0 +1,54 @@
+Примеры гипертекстовых ссылок в HTML для перехода внутри одного документа, перехода к другому документу, перехода к метке другого документа, а также имен файлов и ссылок на них:
+
+1. Переход внутри одного документа:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Переход внутри одного документа</title>
+</head>
+<body>
+    <h2 id="section1">Раздел 1</h2>
+    <p>Текст в разделе 1</p>
+
+    <a href="#section2">Перейти к Разделу 2</a>
+
+    <h2 id="section2">Раздел 2</h2>
+    <p>Текст в разделе 2</p>
+</body>
+</html>
+
+
+2. **Переход к другому документу**:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Переход к другому документу</title>
+</head>
+<body>
+    <p>Перейти на <a href="https://www.example.com">сайт Example</a></p>
+</body>
+</html>
+
+
+3. Переход к метке другого документа:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Переход к метке другого документа</title>
+</head>
+<body>
+    <p>Перейти к <a href="https://www.example.com/#section2">метке в другом документе</a></p>
+</body>
+</html>
+
+
+4. Имена файлов и ссылки на них:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Имена файлов и ссылки</title>
+</head>
+<body>
+    <p>Скачать файл <a href="files/document.pdf" download>Document PDF</a></p>
+</body>
+</html>
