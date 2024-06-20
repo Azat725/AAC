@@ -1,0 +1,38 @@
+Пример HTML кода, в котором текст усиливается, изменяется размер шрифта, абзацы и фагменты выравниваются, и специальные символы отображаются:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Text</title>
+    <style>
+        strong {
+            font-weight: bold; /* Усиление текста */
+            font-size: 1.2em;  /* Изменение размера шрифта */
+        }
+        p {
+            text-align: justify; /* Выравнивание абзацев */
+        }
+        .aligned-text {
+            text-align: center; /* Выравнивание фрагментов */
+        }
+    </style>
+</head>
+<body>
+    <p><strong>Усиленный текст</strong> с измененным размером шрифта.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed semper libero.</p>
+    <div class="aligned-text">
+        <p>Этот текст выровнен по центру.</p>
+    </div>
+    <p>Специальные символы: &copy; &reg; &trade; &permil;</p>
+</body>
+</html>
+
+
+В этом примере:
+- `<strong>` используется для усиления текста и изменения размера шрифта.
+- `text-align: justify;` применяется к `<p>` для выравнивания абзацев.
+- `text-align: center;` применяется к классу `.aligned-text`, чтобы выровнять фрагмент текста по центру.
+- Специальные символы `&copy;` (©), `&reg;` (®), `&trade;` (™), `&permil;` (‰) отображаются в HTML.

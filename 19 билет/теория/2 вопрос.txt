@@ -1,0 +1,49 @@
+Пример HTML кода, демонстрирующий вставку картинки в документ, использование тега `<img>`, выравнивание, атрибуты `align`, `border`, альтернативный текст, картинку как ссылку и задание фона страницы из изображения:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Example</title>
+    <style>
+        body {
+            background-image: url('background.jpg'); /* Установка фона страницы из картинки */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .centered {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Вставка картинки в документ</h1>
+    
+    <!-- Вставка картинки с альтернативным текстом и выравниванием -->
+    <img src="image.jpg" alt="Картинка" align="left" border="1">
+
+    <p>Это пример текста рядом с изображением. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    
+    <!-- Картинка как ссылка -->
+    <a href="https://www.example.com">
+        <img src="link-image.jpg" alt="Ссылка на example.com" border="0">
+    </a>
+
+    <div class="centered">
+        <p>Текст выровнен по центру.</p>
+        <img src="centered-image.jpg" alt="Центрированная картинка">
+    </div>
+</body>
+</html>
+
+
+В этом примере:
+- `<img>` используется для вставки изображений с альтернативным текстом в случае, если изображение не может быть отображено.
+- Атрибут `align` применяется для выравнивания изображения (left/right/center).
+- Атрибут `border` добавляет рамку вокруг изображения.
+- Изображение также может быть использовано внутри тега `<a>` для создания ссылки на другую страницу.
+- Фон страницы устанавливается с использованием CSS в свойстве `background-image`.
